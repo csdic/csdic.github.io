@@ -1,6 +1,7 @@
-title: Your awesome title
-lang: en
-description: Write an awesome description for your new site here
+title: csdic.github.io
+lang: kr
+description: Security 블로그에 오신 것을 환영합니다. 
+baseurl: csdic.github.io
 
 ## local method ##
 # theme: jekyll-rtd-theme
