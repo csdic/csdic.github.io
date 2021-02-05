@@ -187,7 +187,8 @@ GRANT pg_monitor TO nagios;
 
 역할에는 다음과 같이 설정할 수 있는 여러가지 고정 특성이 있다. 
 
-![image-20210205001947059](C:\Users\이민수\AppData\Roaming\Typora\typora-user-images\image-20210205001947059.png)
+
+![image-20210205001947059](https://user-images.githubusercontent.com/10112510/107052597-37830c00-6811-11eb-9de4-20dc404ae67d.png)
 
 SUPERUSER 플래그가 설정된 역할은 로그인 권한을 제외한 모든 권한 검사를 자동으로 무시한다. 
 
@@ -223,7 +224,7 @@ SET ROLE은 유닉스 시스템의 sudo su -<user> 를 사용하는 것과 유�
 
 Postgres는 이전 버전의 Postgres에서만 슈퍼 유저로 제한되었던 기능에 접근할 수 있는 여러 기본 제공 모니터링 역할이 포함되어 있다. 이러한 역할을 사용하면 슈퍼유저 권한을 부여하지 않고도 시스템을 모니터링하는데 사용하는 역할을 부여할 수 있다. 
 
-![image-20210205102722932](C:\Users\이민수\AppData\Roaming\Typora\typora-user-images\image-20210205102722932.png)
+![image-20210205102722932](https://user-images.githubusercontent.com/10112510/107052573-2e923a80-6811-11eb-92b5-a3971bac39c1.png)
 
 이러한 기능은 최소 권한 유지에 도움이 되는 것으로 모니터링만을 위한 계정에 슈퍼 유저 권한을 부여할 필요가 없어 보안 위협을 줄일 수 있다. 
 
